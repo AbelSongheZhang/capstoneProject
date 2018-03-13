@@ -1,0 +1,150 @@
+body {
+    background-color: #F8F8F8;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.homeText {
+    flex: 1;
+    display: block;
+    color: #202223;
+    margin-left: 30px;
+}
+
+
+header ul li {
+    flex: 0.5;
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+li a.active {
+    color: #202223;
+    color: #202223;
+    font-weight: 300;
+}
+li a:hover {
+    color: #333333;
+}
+
+
+.googleMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 630px;
+    background-color: #DE4830;
+}
+
+.pictureScreen {
+    flex: 1;
+    height: 700px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.resultScreen {
+    flex: 1;
+    height: 700px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+
+label {
+    padding: 10px;
+    background-color: #262626; 
+    display: table;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.leftSideButton {
+    display: flex;
+}
+
+.uploadButton {
+    flex: 0.3;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    color: #F5F1E9;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.detectButton {
+    flex: 0.1;
+    font-size: 20px;
+    color: #F5F1E9;
+    background-color: #262626;
+    border-style: none;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+
+.rightSideButton {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.downloadButton {
+    flex: 0.1;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-color: #262626;
+    border-radius: 12px;
+    border-style: none;
+    padding: 8px;
+}
+
+.downloadButton a {
+    color: #F5F1E9;
+}
+
+
+/** 
+*
+*   -- Amazon Rekognition --
+*
+*/
+
+
+.amazonMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 630px;
+    background-color: #E9872E;
+}
+
+
+/**
+*
+*    -- Microsoft --
+*
+*/
+
+.msMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 630px;
+    background-color: #16A6B6;
+}
